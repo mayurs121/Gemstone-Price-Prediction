@@ -4,7 +4,7 @@ import sys
 import numpy as np 
 import pandas as pd
 import dill
-from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+from sklearn.metrics import r2_score
 
 from src.exception import CustomException
 from src.logger import logging
@@ -44,7 +44,7 @@ def evaluate_models(xtrain,ytrain,xtest,ytest,models):
         return report
 
     except Exception as e:
-        logging.info('Exception occured during model training')
+        logging.info('Exception occured in evaluate_models (utils)')
         raise CustomException(e,sys)
     
     
@@ -53,5 +53,5 @@ def load_object(file_path):
         with open(file_path,'rb') as file_obj:
             return dill.load(file_obj)
     except Exception as e:
-        logging.info('Exception Occured in load_object function utils')
+        logging.info('Exception Occured in load_object function')
         raise CustomException(e,sys)
