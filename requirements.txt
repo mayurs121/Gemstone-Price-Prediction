@@ -1,5 +1,10 @@
-flask
-pandas 
-numpy 
-sklearn 
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
+dill
+Flask
 #-e .
