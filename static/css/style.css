@@ -5,12 +5,13 @@ body {
 
   h1 {
     text-align: center;
+    color: #e0faff;
+    border: 3px solid black;
   }
 
   h2 {
     text-align: center;
-    color: #e0faff;
-    border: 3px solid black;
+    
   }
 
   .profile
