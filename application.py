@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template,jsonify
+from flask import Flask, request, render_template
 from flask_cors import CORS,cross_origin
 from src.pipelines.prediction import Custom_Data, Prediction_Pipeline
 

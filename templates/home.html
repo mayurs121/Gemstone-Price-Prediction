@@ -4,39 +4,40 @@
     <title>Gemstone Price Prediction</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
-  <body >
-    <h1>Gemstone Price Prediction - Mayur Redekar</h1>
+  <body>
+    
+    <h1>Gemstone Price Prediction By Mayur Redekar</h1>
     <img src="{{url_for('static', filename='/image/gemstone.jpg')}}" alt="Your Profile Picture" class="profile">
     <div class="form-box">
     <form action="{{url_for('predict_datapoint')}}" method="POST">
         <div class="form-group">
             <label for="carat">Carat:</label>
-            <input type="text" id="carat" name="carat" placeholder="Enter carat value (float)">
+            <input type="text" id="carat" name="carat" placeholder="Enter carat value (Ex.1.52)">
         </div>
     
         <div class="form-group">
             <label for="depth">Depth:</label>
-            <input type="text" id="depth" name="depth" placeholder="Enter depth value (float)">
+            <input type="text" id="depth" name="depth" placeholder="Enter depth value (Ex.62.2)">
         </div>
 
         <div class="form-group">  
             <label for="table">Table:</label>
-            <input type="text" id="table" name="table" placeholder="Enter table value (float)">
+            <input type="text" id="table" name="table" placeholder="Enter table value (Ex.58)">
         </div>
         
         <div class="form-group">
             <label for="x">x:</label>
-            <input type="text" id="x" name="x" placeholder="Enter x value (float)">
+            <input type="text" id="x" name="x" placeholder="Enter x value (Ex.7.32)">
         </div>
       
         <div class="form-group">
             <label for="y">y:</label>
-            <input type="text" id="y" name="y" placeholder="Enter y value (float)">
+            <input type="text" id="y" name="y" placeholder="Enter y value (Ex.7.52)">
         </div>
       
         <div class="form-group">
             <label for="z">z:</label>
-            <input type="text" id="z" name="z" placeholder="Enter z value (float)">
+            <input type="text" id="z" name="z" placeholder="Enter z value (Ex.4.52)">
         </div>         
       
     <div class="form-group">
