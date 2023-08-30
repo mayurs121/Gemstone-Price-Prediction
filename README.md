@@ -2,7 +2,7 @@
 # Gemstone Price Prediction By Mayur Redekar 
 
 ## Azure Deployment Link: 
-https://gemstonepriceprediction.azurewebsites.net/predict 
+https://gemstonepriceprediction.azurewebsites.net/
 
 ## Screenshot Of UI:
 ![gem_sc](https://github.com/mayurs121/Gemstone-Price-Prediction/assets/101388775/f2166c88-c5eb-4f68-8c07-3b6263c006ed)
